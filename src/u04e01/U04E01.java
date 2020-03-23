@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class U04E01 {
 
     public static void main(String[] args) {
-        System.out.println("Ingrese area del cuadrado");
+        System.out.print("Ingrese area del cuadrado: ");
         Scanner entrada= new Scanner(System.in);
         double area = entrada.nextDouble();
         double lado = Math.sqrt(area);
